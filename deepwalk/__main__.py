@@ -50,7 +50,7 @@ def debug(type_, value, tb):
 def process(args):
 
 
-  start = time.time();
+  start_time = time.time();
   if args.format == "adjlist":
     G = graph.load_adjacencylist(args.input, undirected=args.undirected)
   elif args.format == "edgelist":
