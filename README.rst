@@ -2,7 +2,7 @@
 DeepWalk
 ===============================
 
-DeepWalk uses short random walks to learn representations for vertices in graphs.
+This repository contains deepwalk analysis on cora dataset.
 
 Usage
 -----
